@@ -214,8 +214,3 @@
         font-size: var(--fs-47)
     }
 }
-@media (max-width:576px) {
-    .p{
-        padding: 25px ;
-    }
-}
