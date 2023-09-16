@@ -101,9 +101,6 @@
     border-top: 2px solid black;
     border-bottom:2px solid black;
 }
-.max-287{
-    max-height: 287px !important;
-}
 .shadow-text {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -166,8 +163,8 @@
     transition: all 300ms linear;
 }
 .accordion-button:not(.collapsed) {
-    color: black !important;
-    box-shadow: none !important;
+    color: black;
+    box-shadow: none;
 }
 .pl-25{
     padding-left: 25px;
@@ -218,9 +215,6 @@
     }
 }
 @media (max-width:576px) {
-    .next,.prev{
-        display: none !important;
-    }
     .p{
         padding: 25px ;
     }
