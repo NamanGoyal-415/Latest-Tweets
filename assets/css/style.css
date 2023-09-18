@@ -5,6 +5,7 @@
     /*font-color*/
     --fc-red:#f00;
     --fc-green:#00A106;
+    --fc-black:#000;
 
     /*font-family*/
     --ff-noto: 'Noto Serif', serif;
@@ -154,7 +155,7 @@
     padding: 2px 25px;
     align-items: flex-start;
 }
-.accordion-item{
+.bb-1{
     border-bottom:2px solid black !important;
 }
 .btn-mint {
@@ -203,6 +204,10 @@
     border-color: var(--bs-accordion-btn-focus-border-color);
     outline: 0;
     box-shadow:none !important;
+}
+.accordion-button:not(.collapsed) {
+    color:#000 !important;
+    box-shadow: none !important;
 }
 .image{
     width: 100%;
